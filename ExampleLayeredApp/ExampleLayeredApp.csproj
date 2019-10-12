@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ExampleLayeredApp.Data\ExampleLayeredApp.Data.csproj" />
+    <ProjectReference Include="..\ExampleLayeredApp.Entities\ExampleLayeredApp.Entities.csproj" />
+    <ProjectReference Include="..\ExampleLayeredApp.Logic\ExampleLayeredApp.Logic.csproj" />
+  </ItemGroup>
+
+</Project>
